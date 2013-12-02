@@ -1,0 +1,10 @@
+mysql> describe urls;
++----------+---------------+------+-----+---------+-------+
+| Field    | Type          | Null | Key | Default | Extra |
++----------+---------------+------+-----+---------+-------+
+| url      | text          | NO   |     | NULL    |       |
+| filename | text          | YES  |     | NULL    |       |
+| seen     | enum('y','n') | YES  |     | NULL    |       |
+| goc      | varchar(100)  | YES  |     | NULL    |       |
++----------+---------------+------+-----+---------+-------+
+
